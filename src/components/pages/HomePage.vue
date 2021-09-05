@@ -41,7 +41,6 @@ export default {
     const response = await fetch("https://jsonplaceholder.typicode.com/todos");
     this.todos = await response.json();
     this.loading = false;
-    console.log(this.todos);
   },
 };
 </script>
